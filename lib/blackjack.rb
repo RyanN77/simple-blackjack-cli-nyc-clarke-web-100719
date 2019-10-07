@@ -11,15 +11,15 @@ def display_card_total(number)
 end
 
 def prompt_user
-  gets.chomp
+  puts "Type 'h' to hit or 's' to stay"
 end
 
 def get_user_input
-  # code #get_user_input here
+  gets.chomp
 end
 
-def end_game
-  # code #end_game here
+def end_game(sum)
+  puts "Sorry, you hit #{sum}. Thanks for playing!"
 end
 
 def initial_round
