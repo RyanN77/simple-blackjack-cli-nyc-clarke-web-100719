@@ -30,9 +30,13 @@ def initial_round
 end
 
 def hit?(card_total)
-  display_card_total(sum)
   prompt_user
-  get_user_input
+  player_choice = get_user_input
+  if player_choice == 'h'
+  deal_card
+  elsif player_choice == 's'
+  break
+else invalid_command 
 end
 
 def invalid_command 
