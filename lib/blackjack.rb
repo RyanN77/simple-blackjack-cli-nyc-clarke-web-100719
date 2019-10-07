@@ -31,7 +31,7 @@ end
 
 def hit?(card_total)
   prompt_user
-  while player_choice != 'h' 
+  
     player_choice = get_user_input
     if player_choice == 'h'
     card_total += deal_card
