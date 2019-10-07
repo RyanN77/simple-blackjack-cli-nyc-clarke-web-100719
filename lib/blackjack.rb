@@ -37,6 +37,7 @@ def hit?(card_total)
   elsif player_choice == 's'
   break
 else invalid_command 
+  end
 end
 
 def invalid_command 
