@@ -3,15 +3,15 @@ def welcome
 end
 
 def deal_card
-  rand()
+  return rand(10) + 1
 end
 
-def display_card_total
-  # code #display_card_total here
+def display_card_total(number)
+  puts "Your cards add up to #{number}"
 end
 
 def prompt_user
-  # code #prompt_user here
+  return gets.chomp
 end
 
 def get_user_input
