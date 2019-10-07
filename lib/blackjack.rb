@@ -30,7 +30,7 @@ def initial_round
 end
 
 def hit?(card_total)
-  while 
+  while player_choice != 'h' || 's'
   prompt_user
   player_choice = get_user_input
   if player_choice == 'h'
