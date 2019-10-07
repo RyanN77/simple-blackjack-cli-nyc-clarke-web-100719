@@ -30,6 +30,7 @@ def initial_round
 end
 
 def hit?(card_total)
+  while 
   prompt_user
   player_choice = get_user_input
   if player_choice == 'h'
